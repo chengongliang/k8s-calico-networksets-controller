@@ -10,8 +10,8 @@ Service for dns resolving - [dns-resolver](https://github.com/ktrufanov/dns-reso
 quick start
 ```
 kubectl create ns calico-networksets-controller
-kubectl apply -f  https://raw.githubusercontent.com/ktrufanov/dns-resolver/0.0.1/k8s-mainfest.yaml
-kubectl apply -f  https://raw.githubusercontent.com/ktrufanov/k8s-calico-networksets-controller/0.0.11-1/k8s-mainfest.yaml
+kubectl apply -f  https://raw.githubusercontent.com/chengongliang/dns-resolver/main/k8s-mainfest.yaml
+kubectl apply -f  https://raw.githubusercontent.com/chengongliang/k8s-calico-networksets-controller/main/k8s-mainfest.yaml
 ```
 
 ## Description
