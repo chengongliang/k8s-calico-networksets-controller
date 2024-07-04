@@ -85,6 +85,7 @@ spec:
       labels:
         app: calico-networksets-controller
     spec:
+      serviceAccountName: calico-networksets-controller
       volumes:
       - name: networksets-controller
         configMap:
